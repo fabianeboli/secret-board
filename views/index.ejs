@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <% if(user) { %>
+    <p>Welcome back <%= user.username %></p>
+    <button><a href="/logout">Log Out</a></button>
+    <button><a href="/messages/">Messages</a></button>
+    <button><a href="/secret-club">Join to the secret club</a></button>
+    <button><a href="/messages/new-message">New Messages</a></button>
+    <% } else { %>
+    <button><a href="/sign-up">Sign Up</a></button>
+    <button><a href="/logIn">Log in</a></button>
+    <% } %>
+  </body>
+</html>
