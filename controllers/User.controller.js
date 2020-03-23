@@ -10,7 +10,7 @@ const passport = require("passport");
 const { check } = expressValidator;
 
 const index = (req, res, next) => {
-  res.render("index", { title: "Club House club", user: req.user });
+  res.render("index", { title: "Secret Club", user: req.user });
 };
 
 const new_user_post = (req, res, next) => {
