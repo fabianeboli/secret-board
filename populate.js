@@ -119,8 +119,8 @@ function createUsers(cb) {
         userCreate(
             "Mary",
             "Green",
-            "BloodyMary",
-            "Edgelord",
+            "Blablal",
+            "tableu",
           callback
         );
       },
@@ -128,8 +128,8 @@ function createUsers(cb) {
         userCreate(
             "Sarah",
             "McMuffin",
-            "SarahTheHorse",
-            "horsehorse",
+            "SarahIonin",
+            "Ionin21",
           callback
         );
       }

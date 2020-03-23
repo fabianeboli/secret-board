@@ -7,7 +7,7 @@
   <body>
     <h1><%= title %></h1>
     <% if(user) { %>
-    <p>Welcome back <%= user.username %></p>
+    <h2>Welcome back <span><%= user.username %></span></h2>
     <button><a href="/logout">Log Out</a></button>
     <button><a href="/messages/">Messages</a></button>
     <button><a href="/secret-club">Join to the secret club</a></button>
